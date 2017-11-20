@@ -1,0 +1,25 @@
+{
+  "name": "_react-bloom-GHPAGE",
+  "homepage": "https://wle8300.github.io/react-bloom-GHPAGE",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-bloom": "^1.0.15",
+    "react-color": "^2.13.8",
+    "react-dom": "^16.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
